@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "processmanager.storage",
+      "type": "br.edu.ifpb.gestao.core.storage.StorageProperties",
+      "sourceType": "br.edu.ifpb.gestao.core.storage.StorageProperties"
+    },
+    {
+      "name": "processmanager.storage.s3",
+      "type": "br.edu.ifpb.gestao.core.storage.StorageProperties$S3",
+      "sourceType": "br.edu.ifpb.gestao.core.storage.StorageProperties",
+      "sourceMethod": "public br.edu.ifpb.gestao.core.storage.StorageProperties.S3 getS3() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
